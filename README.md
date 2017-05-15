@@ -31,4 +31,4 @@ Files in this repository:
 * features.txt                 Complete list of the features in the full data set
 * tidy_data                    R data file containing the tidy data set derived from the raw data using Run_analysis.R. 
 * summary_data                 R data file containing tidy data set summarised by subject and activity.
-* raw_data                     Zip file containing the raw data set
+
