@@ -26,9 +26,9 @@ Code_book.md further describes the data in this repositiory.
 
 Files in this repository:
 
-* Run_analysis.R               Script described above
-* Codebook.md                  Summary description of the features in the data
-* features.txt                 Complete list of the features in the full data set
-* tidy_data                    R data file containing the tidy data set derived from the raw data using Run_analysis.R. 
-* summary_data                 R data file containing tidy data set summarised by subject and activity.
+* _Run_analysis.R_               Script described above
+* _Codebook.md_                  Summary description of the features in the data
+* _features.txt_                 Complete list of the features in the full data set
+* _tidy_data_                    R data file containing the tidy data set derived from the raw data using Run_analysis.R. 
+* _summary_data_                 R data file containing tidy data set summarised by subject and activity.
 
