@@ -8,8 +8,6 @@
 library(dplyr)
 
 # read the data
-setwd("~/R/wk4/getdata%2Fprojectfiles%2FUCI HAR Dataset/UCI HAR Dataset")
-
 # read the labels
 features<-read.csv("features.txt",sep=" ", header = F)
 activity_labels<-read.csv("activity_labels.txt",sep=" ", header = F)
