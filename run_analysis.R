@@ -2,7 +2,7 @@
 #Extracts only the measurements on the mean and standard deviation for each measurement.
 #Uses descriptive activity names to name the activities in the data set
 #Appropriately labels the data set with descriptive variable names.
-#From the data set in step 4, creates a second, independent tidy data set with the average of each 
+#Creates a second, independent tidy data set with the average of each 
 #variable for each activity and each subject.
 
 library(dplyr)
@@ -52,6 +52,7 @@ averages = data_all %>%
   group_by(activity_all,Subject_number) %>%
   summarise_all(mean)
 
+# save the summarised data
 save(averages, file="summary_data")
 
 
