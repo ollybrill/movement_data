@@ -32,3 +32,10 @@ Files in this repository:
 * _tidy_data_                    R data file containing the tidy data set derived from the raw data using Run_analysis.R. 
 * _summary_data_                 R data file containing tidy data set summarised by subject and activity.
 
+#Instructions for running the script?
+
+<b> Step 1: </b> Unzip the folder 'UCI HAR Dataset' from the zipped folder downloaded from:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+<b> Step 2: </b> With your working directory set to the root directory of the extracted dataset run the run_analysis.R code shared in this repository 
+
