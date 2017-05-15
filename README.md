@@ -14,10 +14,10 @@ Running the script merges the training and the test sets to create one data set.
 1.  -Extracts only the measurements on the mean and standard deviation for each measurement.
 2.  -Uses descriptive activity names to name the activities in the data set
 3.  -Appropriately labels the data set with descriptive variable names.
-4.  -This data is stored in the data frame data_all.
+4.  -This data is stored in the data frame _tidy_data_.
 
 Finally, it creates a second, independent tidy data set with the average of each variable for each activity and each subject.  
-This data is stored in a second data frame named "averages".
+This data is stored in a second data frame named _summary_data_.
 
 The script assumes the data and the scripts are in path: "~/R/wk4/getdata%2Fprojectfiles%2FUCI HAR Dataset/UCI HAR Dataset". 
 The script may be edited if this is not the case.
